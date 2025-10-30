@@ -41,10 +41,8 @@ namespace Tyuiu.MolchanovIV.Sprint3.Task0.V22
             Console.WriteLine("* РЕЗУЛЬТАТ:                                                              *");
             Console.WriteLine("***************************************************************************");
 
-            res = ds.GetMultiplySeries(value, startValue, endValue);
+            Console.WriteLine(ds.GetMultiplySeries(value, startValue, endValue));
 
-            Console.WriteLine(Math.Round(res, 3));
-       
             Console.ReadLine();
         }
     }

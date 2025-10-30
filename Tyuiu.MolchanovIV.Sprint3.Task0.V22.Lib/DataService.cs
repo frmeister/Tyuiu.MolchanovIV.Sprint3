@@ -13,7 +13,7 @@ namespace Tyuiu.MolchanovIV.Sprint3.Task0.V22.Lib
                 result = result * ((Math.Pow(value, k) + 4) * Math.Cos(value));
             }
 
-            return result;
+            return Math.Round(result, 3);
         }
     }
 }
