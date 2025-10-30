@@ -10,7 +10,7 @@ namespace Tyuiu.MolchanovIV.Sprint3.Task0.V22.Test
         {
             DataService ds = new DataService ();
             double res = ds.GetMultiplySeries(0.25, 1, 8);
-            Assert.AreEqual(27134.4, Math.Round(res, 1));
+            Assert.AreEqual(55217.446, Math.Round(res, 3));
         }
     }
 }

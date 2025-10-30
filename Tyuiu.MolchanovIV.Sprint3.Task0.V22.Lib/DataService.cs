@@ -10,7 +10,7 @@ namespace Tyuiu.MolchanovIV.Sprint3.Task0.V22.Lib
 
             for (int k = startValue; k <= stopValue; k++)
             {
-                result = result + ((Math.Pow(value, k) + 4) * Math.Cos(value));
+                result = result * ((Math.Pow(value, k) + 4) * Math.Cos(value));
             }
 
             return result;

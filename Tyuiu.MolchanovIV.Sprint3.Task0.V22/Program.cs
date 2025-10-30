@@ -40,7 +40,7 @@ namespace Tyuiu.MolchanovIV.Sprint3.Task0.V22
             Console.WriteLine("* РЕЗУЛЬТАТ:                                                              *");
             Console.WriteLine("***************************************************************************");
 
-            Console.WriteLine(ds.GetMultiplySeries(value, startValue, endValue));
+            Console.WriteLine(Math.Round(ds.GetMultiplySeries(value, startValue, endValue)));
 
             Console.ReadLine();
         }
