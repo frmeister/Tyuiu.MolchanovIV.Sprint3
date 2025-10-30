@@ -37,7 +37,7 @@ namespace Tyuiu.MolchanovIV.Sprint3.Task0.V22
             Console.WriteLine("Значение startValue = ", + startValue);
             Console.WriteLine("Значение endValue = ", + endValue);
 
-            Console.WriteLine("***************************************************************************");
+            Console.WriteLine("***************************************************************************"); 
             Console.WriteLine("* РЕЗУЛЬТАТ:                                                              *");
             Console.WriteLine("***************************************************************************");
 
