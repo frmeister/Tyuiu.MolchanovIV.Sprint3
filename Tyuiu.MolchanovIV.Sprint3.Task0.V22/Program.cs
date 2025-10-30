@@ -14,8 +14,9 @@ namespace Tyuiu.MolchanovIV.Sprint3.Task0.V22
         {
             DataService ds = new DataService();
 
+            double res = 0.0;
             double value = 0.25;
-            int startValue = 0, endValue = 0;
+            int startValue = 1, endValue = 8;
 
             Console.Title = "Спринт #3 | Выполнил: Молчанов И. В. | РППб-25-1";
             Console.WriteLine("***************************************************************************");
@@ -40,8 +41,10 @@ namespace Tyuiu.MolchanovIV.Sprint3.Task0.V22
             Console.WriteLine("* РЕЗУЛЬТАТ:                                                              *");
             Console.WriteLine("***************************************************************************");
 
-            Console.WriteLine(Math.Round(ds.GetMultiplySeries(value, startValue, endValue), 3));
+            res = ds.GetMultiplySeries(value, startValue, endValue);
 
+            Console.WriteLine(Math.Round(res, 3));
+       
             Console.ReadLine();
         }
     }
