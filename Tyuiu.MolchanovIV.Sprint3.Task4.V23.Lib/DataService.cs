@@ -14,7 +14,7 @@ namespace Tyuiu.MolchanovIV.Sprint3.Task4.V23.Lib
                 result *= (Math.Cos(i) / i) + 3;
             }
 
-            return result;
+            return Math.Round(result, 3);
         }
     }
 }
