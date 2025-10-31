@@ -10,7 +10,7 @@ namespace Tyuiu.MolchanovIV.Sprint3.Task5.V5.Test
         {
             DataService ds = new DataService();
             var res = ds.GetSumSumSeries(5, 1, 1, 3, 10);
-            Assert.AreEqual(1, res);
+            Assert.AreEqual(0.019, res);
         }
     }
 }

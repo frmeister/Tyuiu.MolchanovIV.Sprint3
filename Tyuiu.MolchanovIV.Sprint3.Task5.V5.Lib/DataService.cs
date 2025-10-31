@@ -10,7 +10,7 @@ namespace Tyuiu.MolchanovIV.Sprint3.Task5.V5.Lib
 
             for (int i = startValue1; i <= stopValue1; i++)
             {
-                for (int k = startValue2; i <= stopValue2; k++)
+                for (int k = startValue2; k <= stopValue2; k++)
                 {
                     result += x / Math.Sin(k);
                 }
