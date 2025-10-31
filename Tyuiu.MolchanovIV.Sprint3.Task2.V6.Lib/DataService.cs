@@ -15,6 +15,8 @@ namespace Tyuiu.MolchanovIV.Sprint3.Task2.V6.Lib
 
                 result *= (Math.Pow(value, i) + 1) * Math.Cos(4);
 
+                i++;
+
             } while (i <= stopValue);
 
             return Math.Round(result, 3);
