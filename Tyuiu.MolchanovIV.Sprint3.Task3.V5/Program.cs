@@ -21,8 +21,8 @@ namespace Tyuiu.MolchanovIV.Sprint3.Task3.V5
             Console.WriteLine("***************************************************************************");
             Console.WriteLine("* Спринт #3                                                               *");
             Console.WriteLine("* Тема: Алгоритмы циклической структуры                                   *");
-            Console.WriteLine("* Задание #0                                                              *");
-            Console.WriteLine("* Вариант #22                                                             *");
+            Console.WriteLine("* Задание #3                                                              *");
+            Console.WriteLine("* Вариант #5                                                              *");
             Console.WriteLine("* Выполнил: Молчанов Иван Владимирович | РППБ-25-1                        *");
             Console.WriteLine("***************************************************************************");
             Console.WriteLine("* УСЛОВИЕ:                                                                *");
