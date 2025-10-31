@@ -32,8 +32,8 @@ namespace Tyuiu.MolchanovIV.Sprint3.Task4.V23
             Console.WriteLine("* ИСХОДНЫЕ ДАННЫЕ:                                                        *");
             Console.WriteLine("***************************************************************************");
 
-            Console.WriteLine("Изначальное значение X: ", startValue);
-            Console.WriteLine("Крайнее значение X: ", stopValue);
+            Console.WriteLine("Изначальное значение X: " + startValue);
+            Console.WriteLine("Крайнее значение X: " + stopValue);
 
             Console.WriteLine("***************************************************************************");
             Console.WriteLine("* РЕЗУЛЬТАТ:                                                              *");

@@ -31,8 +31,8 @@ namespace Tyuiu.MolchanovIV.Sprint3.Task6.V5
             Console.WriteLine("* ИСХОДНЫЕ ДАННЫЕ:                                                        *");
             Console.WriteLine("***************************************************************************");
 
-            Console.WriteLine("Начало отрезка: ", startValue);
-            Console.WriteLine("Конец отрезка: ", stopValue);
+            Console.WriteLine("Начало отрезка: " + startValue);
+            Console.WriteLine("Конец отрезка: " + stopValue);
 
             Console.WriteLine("***************************************************************************");
             Console.WriteLine("* РЕЗУЛЬТАТ:                                                              *");

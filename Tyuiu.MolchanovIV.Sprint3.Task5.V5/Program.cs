@@ -32,10 +32,10 @@ namespace Tyuiu.MolchanovIV.Sprint3.Task5.V5
             Console.WriteLine("***************************************************************************");
 
             Console.WriteLine("Знчаение X:", x);
-            Console.WriteLine("Знчаение startValue1:", startValue1);
-            Console.WriteLine("Знчаение startValue2:", startValue2);
-            Console.WriteLine("Знчаение stopValue1:", stopValue1);
-            Console.WriteLine("Знчаение stopValue2:", stopValue2);
+            Console.WriteLine("Знчаение startValue1:" + startValue1);
+            Console.WriteLine("Знчаение startValue2:" + startValue2);
+            Console.WriteLine("Знчаение stopValue1:" + stopValue1);
+            Console.WriteLine("Знчаение stopValue2:" + stopValue2);
 
             Console.WriteLine("***************************************************************************");
             Console.WriteLine("* РЕЗУЛЬТАТ:                                                              *");
