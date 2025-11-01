@@ -43,51 +43,15 @@ namespace Tyuiu.MolchanovIV.Sprint3.Task7.V1
             Console.WriteLine("* РЕЗУЛЬТАТ:                                                              *");
             Console.WriteLine("***************************************************************************");
 
-            Console.WriteLine("--------||----------");
-            Console.WriteLine("|   X   ||   f(x)  |");
-            Console.WriteLine("--------||----------");
-
-            for (int i = 0; i < 11; i++)
+            Console.WriteLine(" +-----------+-----------+ ");
+            Console.WriteLine(" |     X     |    F(x)   | ");
+            Console.WriteLine(" +-----------+-----------+ ");
+            for (int i = 1; i <= 11; i++)
             {
-                if (currentValue == -1)
-                {
-                    Console.WriteLine("|  " + currentValue + "   ||  " + result[i] + "  |");
-                    currentValue++; continue;
-                }
-
-                if (currentValue == -2)
-                {
-                    Console.WriteLine("|  " + currentValue + "   ||   " + result[i] + "  |");
-                    currentValue++; continue;
-                }
-
-                if ((currentValue == 1) || (currentValue == 5))
-                {
-                    Console.WriteLine("|   " + currentValue + "   ||   " + result[i] + "  |");
-                    currentValue++; continue;
-                }
-
-                if (currentValue == 0)
-                {
-                    Console.WriteLine("|   " + currentValue + "   ||  " + result[i] + "     |");
-                    currentValue++; continue;
-                }
-
-                if (currentValue == 2)
-                {
-                    Console.WriteLine("|   " + currentValue + "   ||  " + result[i] + "  |");
-                    currentValue++; continue;
-                }
-
-                if (currentValue < 0)
-                    if (result[i] < 0) Console.WriteLine("|  " + currentValue + "   ||  " + result[i] + " |");
-                    else Console.WriteLine("|  " + currentValue + "   ||   " + result[i] + " |");
-                else if (result[i] < 0) Console.WriteLine("|   " + currentValue + "   ||  " + result[i] + " |");
-                else Console.WriteLine("|   " + currentValue + "   ||   " + result[i] + " |");
-
-                currentValue++;
+                Console.WriteLine(" |{0,5:d}       |  {1,5:f2}   |", startValue, result[i]);
+                startValue++;
             }
-            Console.WriteLine("--------||----------");
+            Console.WriteLine(" +-----------+-----------+");
 
             Console.ReadLine();
 
