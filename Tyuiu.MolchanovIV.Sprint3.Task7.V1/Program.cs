@@ -46,7 +46,7 @@ namespace Tyuiu.MolchanovIV.Sprint3.Task7.V1
             Console.WriteLine(" +-----------+-----------+ ");
             Console.WriteLine(" |     X     |    F(x)   | ");
             Console.WriteLine(" +-----------+-----------+ ");
-            for (int i = 1; i <= 11; i++)
+            for (int i = 0; i <= 10; i++)
             {
                 Console.WriteLine(" |{0,5:d}       |  {1,5:f2}   |", startValue, result[i]);
                 startValue++;
